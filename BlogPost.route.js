@@ -3,12 +3,11 @@ const { getAllBlogPosts, createBlogPost, getBlogPostById, deleteBlogPost, update
 
 const route = express.Router();
 
-route
-    .get('/posts', getAllBlogPosts)
-    .post('/post', createBlogPost)
-    .put('/post/:id', updateBlogPost)
-    .delete('/post/:id', deleteBlogPost)
-    
+route.get('/posts', getAllBlogPosts)
 route.get('/post/:id', getBlogPostById)
+route.post('/post', createBlogPost)
+route.put('/post/:id', updateBlogPost)
+route.delete('/post/:id', deleteBlogPost)
+    
 
 module.exports = route;
