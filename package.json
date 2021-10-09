@@ -1,0 +1,25 @@
+{
+  "name": "express-simple-api",
+  "version": "1.0.0",
+  "description": "for learning rest api(aplication programming interfaces)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js",
+    "dev": "nodemon serve.js"
+  },
+  "keywords": [
+    "api",
+    "backend",
+    "restapi",
+    "crud"
+  ],
+  "author": "Muhammad Badrun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
